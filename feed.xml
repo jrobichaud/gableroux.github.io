@@ -6,8 +6,8 @@
 </description>
     <link>https://gableroux.com/</link>
     <atom:link href="https://gableroux.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 May 2017 23:11:52 -0400</pubDate>
-    <lastBuildDate>Mon, 15 May 2017 23:11:52 -0400</lastBuildDate>
+    <pubDate>Tue, 16 May 2017 13:38:37 -0400</pubDate>
+    <lastBuildDate>Tue, 16 May 2017 13:38:37 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -323,7 +323,7 @@ Hope you enjoyed this and that you learned a few things.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.archlinux.org/&quot;&gt;Arch wiki&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/aleksandar-todorovic/awesome-linux&quot;&gt;Awesome linux&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://antergos.com/&quot;&gt;Anthergos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://antergos.com/&quot;&gt;Antergos&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Anthergos will make your setup easier (as shown by the step by step in the slides). The only sad thing about Anthergos is that the Arch community may bitch you for not using raw commands to setup your distro. I personally think it’s ok to use it. It’s cool to do everything by your own, but &lt;em&gt;sometimes&lt;/em&gt; it’s easier with a UI. Way better than using windows anyway IMHO ;)&lt;/p&gt;
@@ -367,6 +367,8 @@ To install Fedy in Fedora, open a Terminal and run the following command:&lt;/p&
         <category>linux</category>
         
         <category>archlinux</category>
+        
+        <category>antergos</category>
         
         <category>fedora</category>
         
