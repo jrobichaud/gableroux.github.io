@@ -6,8 +6,8 @@
 </description>
     <link>https://gableroux.com/</link>
     <atom:link href="https://gableroux.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 May 2017 20:50:47 -0400</pubDate>
-    <lastBuildDate>Sun, 21 May 2017 20:50:47 -0400</lastBuildDate>
+    <pubDate>Sun, 21 May 2017 23:08:49 -0400</pubDate>
+    <lastBuildDate>Sun, 21 May 2017 23:08:49 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -976,15 +976,17 @@ Stay tuned!&lt;/p&gt;
     
       <item>
         <title>Python interpreter autocomplete + history with ~/.pythonrc</title>
-        <description>&lt;p&gt;Using great tools is important, using autocompletion with great tools is even better!&lt;/p&gt;
+        <description>&lt;p&gt;Using great tools is important, using autocompletion with great tools is even better. Update: use &lt;a href=&quot;https://jupyter.org/&quot;&gt;Jupyter&lt;/a&gt;, it’s just amazing!&lt;/p&gt;
 
 &lt;!-- more --&gt;
 
-&lt;h2 id=&quot;ever-used-python-interpreter&quot;&gt;Ever used python interpreter?&lt;/h2&gt;
+&lt;h2 id=&quot;never-used-python-interpreter&quot;&gt;Never used python interpreter?&lt;/h2&gt;
 
-&lt;p&gt;You should, &lt;a href=&quot;https://www.python.org/downloads/&quot;&gt;install python&lt;/a&gt; if it’s not already the case and run &lt;code class=&quot;highlighter-rouge&quot;&gt;python&lt;/code&gt; in your terminal. Awesome, an interpreter!&lt;/p&gt;
+&lt;p&gt;Try it now! &lt;a href=&quot;https://www.python.org/downloads/&quot;&gt;Install python&lt;/a&gt; if it’s not already the case and run &lt;code class=&quot;highlighter-rouge&quot;&gt;python&lt;/code&gt; in a terminal. There you go, you’re now inside a python interpreter!&lt;/p&gt;
 
-&lt;h2 id=&quot;get-interpreter-autocompletion&quot;&gt;Get interpreter autocompletion&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/python-interpreter.png&quot; alt=&quot;Bare python interpreter example&quot; class=&quot;center-block&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;get-interpreter-autocompletion-and-history&quot;&gt;Get interpreter autocompletion and history&lt;/h2&gt;
 
 &lt;p&gt;Here is what you’re looking for, create this file:&lt;/p&gt;
 
@@ -1014,7 +1016,7 @@ Stay tuned!&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PYTHONSTARTUP&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=~/.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pythonrc&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;You can also run this directly in your shell if you want to test before editing your &lt;code class=&quot;highlighter-rouge&quot;&gt;rc&lt;/code&gt;` file.&lt;/p&gt;
+&lt;p&gt;You can also run this directly in your shell if you want to test before editing your &lt;code class=&quot;highlighter-rouge&quot;&gt;rc&lt;/code&gt; file.&lt;/p&gt;
 
 &lt;p&gt;That’s it, fire up a terminal, run &lt;code class=&quot;highlighter-rouge&quot;&gt;python&lt;/code&gt; again and enjoy autocompletion with when you hit &lt;code class=&quot;highlighter-rouge&quot;&gt;tab&lt;/code&gt; key :D&lt;/p&gt;
 
@@ -1022,12 +1024,48 @@ Stay tuned!&lt;/p&gt;
 
 &lt;p&gt;All of your tests in a local interpreter are now recorded to &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.pyhistory&lt;/code&gt; which could be useful and tab auto completion is just so useful when experimenting with modules from the interwebs :)&lt;/p&gt;
 
+&lt;h2 id=&quot;want-more&quot;&gt;Want more?&lt;/h2&gt;
+
+&lt;p&gt;For advanced usage, there are a few interpreters available that even provide syntax highlighting while you type:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bpython-interpreter.org&quot;&gt;bpython&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.dreampie.org/&quot;&gt;DreamPie&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ipython.org/&quot;&gt;IPython&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jonathanslenders/ptpython&quot;&gt;ptpython&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I used &lt;a href=&quot;http://ipython.org/&quot;&gt;IPython&lt;/a&gt; for a while and it’s great:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/python-interpreter-ipython-usage-example.png&quot; alt=&quot;IPython usage example&quot; class=&quot;center-block&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;even-better-use-jupyter&quot;&gt;Even better, use &lt;a href=&quot;https://jupyter.org/&quot;&gt;Jupyter&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://jupyter.org/&quot;&gt;Jupyter&lt;/a&gt; lets you manage notebooks with live code, syntax highlighting, visualizations, markdown and has a few extensions. It’s really worth &lt;a href=&quot;https://try.jupyter.org/&quot;&gt;the try&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;pip3 install jupyter
+jupyter notebook&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You’ll love it and it’s even more fun when used with &lt;code class=&quot;highlighter-rouge&quot;&gt;numpy&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;matplotlib&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/python-interpreter-jupyter.png&quot; alt=&quot;jupyter localhost example&quot; class=&quot;center-block&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Oh and you can save them [as gists][https://gist.github.com/GabLeRoux/a0bdab051ea6bd6f2a2b55dcb336e677] which is wonderful for sharing and embedding:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/GabLeRoux/a0bdab051ea6bd6f2a2b55dcb336e677.js?file=the-zen-of-python.ipynb&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Neat eh?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Found a typo? Have a suggestion? &lt;a href=&quot;https://github.com/gableroux/gableroux.github.io/issues&quot;&gt;Open an issue&lt;/a&gt; or send me a &lt;a href=&quot;https://github.com/gableroux/gableroux.github.io/pulls&quot;&gt;pull-request&lt;/a&gt;!&lt;/p&gt;
+
 </description>
         <pubDate>Wed, 20 Jan 2016 10:00:00 -0500</pubDate>
         <link>https://gableroux.com/python/2016/01/20/python-interpreter-autocomplete/</link>
         <guid isPermaLink="true">https://gableroux.com/python/2016/01/20/python-interpreter-autocomplete/</guid>
         
-        <category>dotfile history python pythonrc autocomplete</category>
+        <category>dotfile history python pythonrc autocomplete Jupyter interpreter</category>
         
         
         <category>python</category>
