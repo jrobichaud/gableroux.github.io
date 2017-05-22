@@ -6,8 +6,8 @@
 </description>
     <link>https://gableroux.com/</link>
     <atom:link href="https://gableroux.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 May 2017 23:08:49 -0400</pubDate>
-    <lastBuildDate>Sun, 21 May 2017 23:08:49 -0400</lastBuildDate>
+    <pubDate>Sun, 21 May 2017 23:15:42 -0400</pubDate>
+    <lastBuildDate>Sun, 21 May 2017 23:15:42 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -1050,7 +1050,7 @@ jupyter notebook&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/python-interpreter-jupyter.png&quot; alt=&quot;jupyter localhost example&quot; class=&quot;center-block&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Oh and you can save them [as gists][https://gist.github.com/GabLeRoux/a0bdab051ea6bd6f2a2b55dcb336e677] which is wonderful for sharing and embedding:&lt;/p&gt;
+&lt;p&gt;Oh and you can save them &lt;a href=&quot;https://gist.github.com/GabLeRoux/a0bdab051ea6bd6f2a2b55dcb336e677&quot;&gt;as gists&lt;/a&gt; which is wonderful for sharing and embedding:&lt;/p&gt;
 
 &lt;script src=&quot;https://gist.github.com/GabLeRoux/a0bdab051ea6bd6f2a2b55dcb336e677.js?file=the-zen-of-python.ipynb&quot;&gt;&lt;/script&gt;
 
