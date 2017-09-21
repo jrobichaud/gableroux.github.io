@@ -6,9 +6,81 @@
 </description>
     <link>https://gableroux.com/</link>
     <atom:link href="https://gableroux.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 08 Aug 2017 14:29:29 -0400</pubDate>
-    <lastBuildDate>Tue, 08 Aug 2017 14:29:29 -0400</lastBuildDate>
-    <generator>Jekyll v3.5.1</generator>
+    <pubDate>Thu, 21 Sep 2017 09:07:56 -0400</pubDate>
+    <lastBuildDate>Thu, 21 Sep 2017 09:07:56 -0400</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>Fastlane: deploy ios and android like a boss</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Sorry, we can’t deploy, john is on vacation&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Your team shouldn’t rely on only one person to release you mobile apps.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Once again, I gave a presentation at the &lt;a href=&quot;http://saglac.io&quot;&gt;SagLacIO&lt;/a&gt;. This time, it was about &lt;strong&gt;&lt;a href=&quot;https://fastlane.tools/&quot;&gt;Fastlane&lt;/a&gt;&lt;/strong&gt;. Here are a few links to get you started.&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-started&quot;&gt;Getting started&lt;/h2&gt;
+
+&lt;p&gt;Install ruby and start having fun:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo gem install fastlane
+fastlane init&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Then follow instructions. If your app has both ios and android (ex; cordova, ionic, react native, hybrid project), I recommend starting with ios. You can add android support later by &lt;a href=&quot;https://docs.fastlane.tools/getting-started/android/setup/&quot;&gt;following the android documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;usefull-links&quot;&gt;Usefull Links&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Official website: &lt;a href=&quot;https://fastlane.tools&quot;&gt;fastlane.tools&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Github: &lt;a href=&quot;https://github.com/fastlane/fastlane&quot;&gt;github.com/fastlane/fastlane&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Getting started: &lt;a href=&quot;https://fabric.io/features/&quot;&gt;fabric.io/features&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Example public repos using fastlane: &lt;a href=&quot;https://github.com/fastlane/examples&quot;&gt;github.com/fastlane/examples&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Documentation: &lt;a href=&quot;https://docs.fastlane.tools/&quot;&gt;docs.fastlane.tools&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Plugins: &lt;a href=&quot;https://docs.fastlane.tools/plugins/available-plugins/&quot;&gt;docs.fastlane.tools/plugins/available-plugins&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The guy behind Fastlane: &lt;a href=&quot;https://krausefx.com&quot;&gt;Felix Krause (krausefx)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;how-to-solve-the-only-one-person-can-release-an-ios-app&quot;&gt;How to solve the “only one person can release an ios app”&lt;/h2&gt;
+
+&lt;p&gt;You may share the certs by your own or &lt;strong&gt;Follow &lt;a href=&quot;https://codesigning.guide/&quot;&gt;codesigning.guide&lt;/a&gt;&lt;/strong&gt; and let &lt;code class=&quot;highlighter-rouge&quot;&gt;fastlane match&lt;/code&gt; handle everything for you!&lt;/p&gt;
+
+&lt;h2 id=&quot;here-goes-the-slides&quot;&gt;Here goes the slides&lt;/h2&gt;
+
+&lt;p&gt;I gave a quick explanation of what problems fastlane solves and I went trough a complete example of doing the &lt;code class=&quot;highlighter-rouge&quot;&gt;fastlane init&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;fastlane ios beta&lt;/code&gt; to send an app on itunes connect!&lt;/p&gt;
+
+&lt;div class=&quot;responsive-iframe-wrapperr&quot;&gt;
+    &lt;div class=&quot;responsive-iframe&quot;&gt;
+        &lt;img class=&quot;ratio&quot; src=&quot;/images/layout/placeholder_16x9.gif&quot; alt=&quot;placeholder&quot; /&gt;
+        &lt;iframe src=&quot;https://docs.google.com/presentation/d/12mfmFRzwQ6WG_DSRR4ktEjU7LHmA3XFemhYaNdYswQA/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you have suggestions, feel free to poke me or &lt;a href=&quot;https://github.com/GabLeRoux/gableroux.github.io/issues&quot;&gt;open an issue&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 19 Sep 2017 19:00:00 -0400</pubDate>
+        <link>https://gableroux.com/saglacio/2017/09/19/fastlane-deploy-ios-and-android-like-a-boss/</link>
+        <guid isPermaLink="true">https://gableroux.com/saglacio/2017/09/19/fastlane-deploy-ios-and-android-like-a-boss/</guid>
+        
+        <category>fastlane</category>
+        
+        <category>presentation</category>
+        
+        <category>ios</category>
+        
+        <category>android</category>
+        
+        <category>deployment</category>
+        
+        
+        <category>saglacio</category>
+        
+      </item>
     
       <item>
         <title>Things I share to programmers</title>
@@ -1098,33 +1170,6 @@ jupyter notebook&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
         
         
         <category>python</category>
-        
-      </item>
-    
-      <item>
-        <title>Hubot presentation at the SagLacIO</title>
-        <description>&lt;p&gt;I gave a presentation at the &lt;a href=&quot;http://saglac.io&quot;&gt;SagLacIO&lt;/a&gt; about &lt;a href=&quot;https://hubot.github.com/&quot;&gt;Hubot&lt;/a&gt;. Here are the slides.&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;div class=&quot;responsive-iframe-wrapperr&quot;&gt;
-    &lt;div class=&quot;responsive-iframe&quot;&gt;
-        &lt;img class=&quot;ratio&quot; src=&quot;/images/layout/placeholder_16x9.gif&quot; alt=&quot;placeholder&quot; /&gt;
-        &lt;iframe src=&quot;https://docs.google.com/presentation/d/12mfmFRzwQ6WG_DSRR4ktEjU7LHmA3XFemhYaNdYswQA/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-</description>
-        <pubDate>Wed, 28 Oct 2015 19:00:00 -0400</pubDate>
-        <link>https://gableroux.com/presentation/2015/10/28/hubot-saglacio/</link>
-        <guid isPermaLink="true">https://gableroux.com/presentation/2015/10/28/hubot-saglacio/</guid>
-        
-        <category>saglacio</category>
-        
-        <category>hubot</category>
-        
-        
-        <category>presentation</category>
         
       </item>
     
